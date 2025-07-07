@@ -45,6 +45,7 @@ type RoutingRule struct {
 	Protocol    []string `json:"protocol,omitempty"`
 	Source      []string `json:"source,omitempty"`
 	User        []string `json:"user,omitempty"`
+	Attr        string   `json:"attr,omitempty"`
 }
 type Log struct {
 	Access   string `json:"access"`
