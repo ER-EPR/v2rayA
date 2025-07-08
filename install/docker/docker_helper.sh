@@ -24,7 +24,7 @@ esac
 mkdir -p build && cd build || exit
 wget https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-$v2ray_arch.zip
 wget https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-$v2ray_arch.zip
-wget https://github.com/v2rayA/v2rayA/releases/download/vRealv2rayAVersion/v2raya_linux_"$v2raya_arch"_Realv2rayAVersion
+wget https://github.com/ER-EPR/v2rayA/releases/download/vRealv2rayAVersion/v2raya_linux_"$v2raya_arch"_Realv2rayAVersion
 unzip v2ray-linux-"$v2ray_arch".zip -d v2ray
 install ./v2ray/v2ray /usr/local/bin/v2ray
 unzip Xray-linux-"$v2ray_arch".zip -d xray
