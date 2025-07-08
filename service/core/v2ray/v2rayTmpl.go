@@ -806,6 +806,8 @@ func parseRoutingA(t *Template, routingInboundTags []string) error {
 					rr.User = f.Params
 				case "inboundTag":
 					rr.InboundTag = f.Params
+				case "attr":
+					rr.Attr = f.Params
 				}
 			}
 			if rr.OutboundTag != "" {
